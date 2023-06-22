@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2a1e1e;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    display: flex;
+}
+
+header h1 {
+    color: #ffc5c1;
+}
+
+nav div#botoes {
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    height: 25px;
+    width: 100px;
+    background-color: #503850;
+    color: #ffc5c1;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main section#cartelas h2 {
+    text-align: center;
+    color: #ffc5c1;
+    margin-top: 5px;
+}
+
+main section#cartelas {
+    background-color: #503850;
+    width: 20%;
+    height: 100%;
+}
+
+section#cartelas table,
+th,
+td {
+    border: 2px solid #ffc5c1;
+    border-collapse: collapse;
+    text-align: center;
+    color: #f99fa9;
+
+
+}
+
+section#cartelas table {
+    width: 150px;
+    height: 50px;
+    margin: 10px
+}
+
+div {
+    color: #ffc5c1;
+    margin-left: 10px;
+
+}
+
+.celula {
+    color: bisque;
+    background-color: red
+}
+
+#numeros {
+    color: bisque;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 40%;
+    word-wrap: break-word
+}
+
+section#vitoria {
+    color: #ffc5c1;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 10px;
+    background-color: #aa6581;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
